@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./main.css">
+    <title>fmg.dev | Plates</title>
+</head>
+<body>
+    <div class="container d-flex justify-content-center p-3 cus-container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>City Plates</h1>
+            </div>
+            <div class="col-12 mt-2">
+                <div class="row">
+                    <div class="col-3 text-end mb-2">
+                        <label for="cities">City name:</label>
+                    </div>
+                    <div class="col-9">
+                        <select name="cities" id="cities"></select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-3 text-end">
+                        <label>Plate number:</label>
+                    </div>
+                    <div class="col-9">
+                        <span id="plate"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
